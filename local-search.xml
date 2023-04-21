@@ -8,7 +8,7 @@
     <link href="/2023/04/21/aliyunCTF%E7%AD%BE%E5%88%B0%E9%A2%98/"/>
     <url>/2023/04/21/aliyunCTF%E7%AD%BE%E5%88%B0%E9%A2%98/</url>
     
-    <content type="html"><![CDATA[<p><strong>aliyunCTF 主要是云安全方面的题目，签到题也极其简单，主要是让参赛者熟悉平台的。笔者写这篇文章也是测试刚搭建的博客平台，相信你也不想看到HELLO WORLD了</strong></p><p>直奔主题吧，题目给了一个机器人聊天框，基本判断可以通过这个聊天框获取flag了。以下内容是和机器人的聊天记录</p><p><img src="/2023/04/21/aliyunCTF%E7%AD%BE%E5%88%B0%E9%A2%98/img1.png" alt="图1"></p><p>机器人无法直接给出flag，但是可以给出获取flag的方法，就是输入8000个空格发送给他。但是有个问题就是，这个输入框是无法传递8000个字符的。当然通过传递8000个字符也不够优雅。</p><p><img src="/2023/04/21/aliyunCTF%E7%AD%BE%E5%88%B0%E9%A2%98/img2.png" alt="图2"></p><p>因为它是一个机器人，相信有一定的判断能力，所以试了试python代码，利用python输出8000个空格。</p><p><img src="/2023/04/21/aliyunCTF%E7%AD%BE%E5%88%B0%E9%A2%98/img3.png" alt="图3"></p><p>题目到这里就结束，不知道能不能用其他语言代码获得flag。</p>]]></content>
+    <content type="html"><![CDATA[<p> aliyunCTF 主要是云安全方面的题目，签到题也极其简单，主要是让参赛者熟悉平台的。笔者写这篇文章也是测试刚搭建的博客平台，相信你也不想看到HELLO WORLD了 </p><p>直奔主题吧，题目给了一个机器人聊天框，基本判断可以通过这个聊天框获取flag了。以下内容是和机器人的聊天记录</p><p><img src="/2023/04/21/aliyunCTF%E7%AD%BE%E5%88%B0%E9%A2%98/img1.png" alt="图1"></p><p>机器人无法直接给出flag，但是可以给出获取flag的方法，就是输入8000个空格发送给他。但是有个问题就是，这个输入框是无法传递8000个字符的。当然通过传递8000个字符也不够优雅。</p><p><img src="/2023/04/21/aliyunCTF%E7%AD%BE%E5%88%B0%E9%A2%98/img2.png" alt="图2"></p><p>因为它是一个机器人，相信有一定的判断能力，所以试了试python代码，利用python输出8000个空格。</p><p><img src="/2023/04/21/aliyunCTF%E7%AD%BE%E5%88%B0%E9%A2%98/img3.png" alt="图3"></p><p>题目到这里就结束，不知道能不能用其他语言代码获得flag。</p>]]></content>
     
     
     
